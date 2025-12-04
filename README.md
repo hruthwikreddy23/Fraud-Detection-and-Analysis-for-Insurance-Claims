@@ -1,5 +1,4 @@
-# Deep Learning for Auto Insurance Fraud Detection
-
+# Fraud Detection and Analysis for Insurance Claims 
 This project implements two deep learning approaches for detecting auto insurance claim fraud using structured tabular data:
 
 - **Supervised Artificial Neural Network (ANN) classifier**
