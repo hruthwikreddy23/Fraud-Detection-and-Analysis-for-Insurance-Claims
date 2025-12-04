@@ -1,14 +1,19 @@
-# Fraud Detection and Analysis for Insurance Claims 
+# Fraud Detection and Analysis for Insurance Claims
 
+This repository contains the Jupyter Notebook and plots used for the project **"Fraud Detection and Analysis for Insurance Claims"**. The project applies two deep learning approaches to a public auto insurance dataset:
 
-This repository contains the Jupyter Notebook and plots used for the project **"Deep Learning for Auto Insurance Fraud Detection"**. The project compares a supervised ANN classifier and an unsupervised autoencoder using a public insurance claims dataset.
+- **Artificial Neural Network (ANN)** – supervised fraud classification  
+- **Autoencoder** – unsupervised anomaly detection based on reconstruction error  
 
-## Files
-- `deep_learning_fraud_detection.ipynb` – Full notebook with preprocessing, ANN, autoencoder, evaluation, and visualizations.
-- `/plots` – Folder containing all plots used in the project report.
+The goal is to build a clear workflow for preprocessing, model training, evaluation, and visualization.
 
-## Project Link
-This code corresponds to the experiments and results discussed in the research paper submitted for the course.
+## Contents
+- `fraud_detection_insurance.ipynb`  
+  Main notebook containing all steps: data preprocessing, ANN model, autoencoder model, evaluation metrics, and visualizations.
+  
+- `plots/`  
+  Folder containing all figures used in the report (confusion matrices, ROC curves, loss curves, reconstruction error plots, etc.).
 
-
+## Project
+This code corresponds to the experiments and analysis presented in the course project report.
 
